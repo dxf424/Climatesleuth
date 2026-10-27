@@ -1,0 +1,37 @@
+Climatesleuth Academic Noncommercial License
+
+1. Scope and existing licenses
+These terms apply to original contributions to this public release for which
+no other license has already been granted. Upstream MILES-ClimateSleuth code
+is copyright (c) 2024 NSF National Center for Atmospheric Research and remains
+available under the MIT license reproduced in LICENSE-MIT. These terms do not
+restrict or revoke permissions granted by that license or by third-party
+licenses. No exclusive academic-use restriction is claimed over MIT material.
+
+2. Permitted academic use
+For material covered by these terms, permission is granted, without charge,
+to use, copy, study, and modify the software solely for noncommercial academic
+research and teaching at educational or nonprofit research institutions.
+Copies and modifications may be shared for those purposes provided that this
+license and all applicable copyright and attribution notices are retained.
+Recipients must receive the same academic noncommercial permissions.
+
+3. Commercial use
+No permission is granted under these terms for commercial use, including sale,
+paid services, commercial product development, commercial consulting, or research
+performed for a commercial entity. Such use requires a separate written license
+from the copyright holders of the applicable material. This restriction does
+not apply to material separately licensed under MIT or another license that
+permits commercial use.
+
+4. Attribution and ownership
+Retain all existing copyright and license notices. Ownership remains with the
+respective copyright holders. This license grants no trademark rights and
+implies no endorsement by the authors or their institutions.
+
+5. Disclaimer
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE AUTHORS AND
+COPYRIGHT HOLDERS SHALL NOT BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY
+ARISING FROM THE SOFTWARE OR ITS USE.

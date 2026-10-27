@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "miles-climatesleuth"
+authors = [{name = "NCAR Machine Integration and Learning for Earth Systems (MILES)", email = "miles@ucar.edu"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+dynamic = ["version"]
+requires-python = ">=3.8"
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "cartopy",
+    "scikit-learn",
+    "scipy",
+    "xarray",
+    "netcdf4",
+    "torch",
+    "torchvision",
+    "pyyaml",
+    "pytest",
+    "captum",
+    "cartopy",
+    "dask",
+    "distributed",
+    "dask-jobqueue",
+    "zarr",
+    "echo-opt",
+    "pvlib",
+    "torch-harmonics",
+    "torch_geometric",
+    "pre-commit",
+    "mpi4py",
+    "ruff"
+   ]
+
+[tool.setuptools.packages.find]
+include = ["climatesleuth*"]
+
+[tool.setuptools.dynamic]
+version = {file = "climatesleuth/VERSION"}
+
+[tool.ruff]
+src = ["climatesleuth"]
+line-length = 120
+
+[tool.ruff.lint.per-file-ignores]
+"*.ipynb" = ["E402"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
